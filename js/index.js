@@ -123,13 +123,13 @@ let social_networks = [
     {
         title: 'ВКонтакте',
         class: 'VK',
-        link: ' href="/VK" target="_blank"',
+        link: ' href="https://vk.com/kirillarz" target="_blank"',
         img: 'assets/VK-logo.jpg'
     },
     {
         title: 'Телеграмм',
         class: 'TG',
-        link: ' href="/TG" target="_blank"',
+        link: ' href="https://t.me/kirillarz" target="_blank"',
         img: 'assets/TG-logo.png'
     },
     {
@@ -141,7 +141,7 @@ let social_networks = [
     {
         title: 'ГитХаб',
         class: 'GH',
-        link: ' href="/GH" target="_blank"',
+        link: ' href="https://github.com/nickname123456" target="_blank"',
         img: 'assets/GH-logo.png'
     },
 ];
