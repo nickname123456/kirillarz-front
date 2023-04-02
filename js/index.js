@@ -2,25 +2,25 @@ let place_for_cards = document.querySelector('.place-for-cards');
 
 let cards_data = [
     {
-        img: '/assets/python.png',
+        img: 'assets/python.png',
         know: ['test', 'test2', 'test3'],
         learn: ['test', 'test2', 'test3'],
         projects: ['test', 'test2', 'test3']
     },
     {
-        img: '/assets/HTML.png',
+        img: 'assets/HTML.png',
         know: ['test', 'test2', 'test3'],
         learn: ['test', 'test2', 'test3'],
         projects: ['test', 'test2', 'test3']
     },
     {
-        img: '/assets/js.png',
+        img: 'assets/js.png',
         know: ['test', 'test2', 'test3'],
         learn: ['test', 'test2', 'test3'],
         projects: ['test', 'test2', 'test3']
     },
     {
-        img: '/assets/CSS.svg',
+        img: 'assets/CSS.svg',
         know: ['test', 'test2', 'test3'],
         learn: ['test', 'test2', 'test3'],
         projects: ['test', 'test2', 'test3']
@@ -28,7 +28,7 @@ let cards_data = [
 ];
 
 for (let i = 0; i < cards_data.length; i++) {
-    card = cards_data[i];
+    let card = cards_data[i];
     card_HTML = `
     <div class="margin-of-card">
     <div class="cartochka">
