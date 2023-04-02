@@ -135,7 +135,7 @@ let social_networks = [
     {
         title: 'Дискорд',
         class: 'DS',
-        link: ' href="/#contact"',
+        link: ' href="#contact"',
         img: 'assets/DS-logo.png'
     },
     {
